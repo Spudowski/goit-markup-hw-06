@@ -1146,8 +1146,15 @@ ul {
     margin: 24px 44px;
   }
 
+@media (min-resolution: 192dpi) {
+  .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(/images/Dark-bg.jpg);
+  }
+}
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 769px) {
 
   .container .navigation .hamburger {
     display: none;
@@ -1240,7 +1247,7 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/dark-bg-mobile.jpg);
+    url(/images/tablet/tablet.jpg);
     width: auto;
     height: auto;
     padding: 112px 136px;
@@ -1401,7 +1408,16 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 321px) and (min-resolution: 192dpi) {
+  .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(/images/tablet/tablet1.jpg);
+  }
+}
+
+
+@media screen and (min-width: 769px) {
 
   /* Modal */
 
@@ -1480,7 +1496,7 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/dark-bg-mobile.jpg);
+    url(/images/desktop/desktop-bg.jpg);
     width: auto;
     height: 600px;
     padding: 188px 472px;
@@ -1635,5 +1651,13 @@ ul {
 
   .form-footer-container .form-footer .form-footer-input {
     width: 264px;
+  }
+}
+
+@media (min-width: 769px) and (min-resolution: 192dpi) {
+  .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(/images/desktop/desktop-bg2.jpg);
   }
 }
