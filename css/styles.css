@@ -931,7 +931,8 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/dark-bg-mobile.jpg);
+    url('/images/dark-bg-mobile.jpg');
+    background-size: cover;
     width: 320px;
     height: 432px;
     padding: 72px 52px;
@@ -1150,7 +1151,8 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/Dark-bg.jpg);
+    url('/images/Dark-bg.jpg');
+    background-size: cover;
   }
 }
 
@@ -1247,7 +1249,8 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/tablet/tablet.jpg);
+    url('/images/tablet/tablet.jpg');
+    background-size: cover;
     width: auto;
     height: auto;
     padding: 112px 136px;
@@ -1412,7 +1415,8 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/tablet/tablet1.jpg);
+    url('/images/tablet/tablet1.jpg');
+    background-size: cover;
   }
 }
 
@@ -1503,6 +1507,7 @@ ul {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
     url('/images/desktop/desktop-bg.jpg');
+    background-size: cover;
     width: auto;
     height: 600px;
     padding: 188px 472px;
@@ -1665,6 +1670,6 @@ ul {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
     url('/images/desktop/desktop-bg2.jpg');
-
+    background-size: cover;
   }
 }
