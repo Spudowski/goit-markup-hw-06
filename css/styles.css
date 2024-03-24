@@ -1470,10 +1470,16 @@ ul {
     display: flex;
     padding: 0 156px;
   }
+
+  .container .navigation {
+    margin-right: 0;
+  }
   
   .container.header-wrap {
     width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .container .navigation .menu-nav {
