@@ -1502,7 +1502,7 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/desktop/desktop-bg.jpg);
+    url("/images/desktop/desktop-bg.jpg");
     width: auto;
     height: 600px;
     padding: 188px 472px;
@@ -1664,6 +1664,6 @@ ul {
   .first-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
-    url(/images/desktop/desktop-bg2.jpg);
+    url("/images/desktop/desktop-bg2.jpg");
   }
 }
