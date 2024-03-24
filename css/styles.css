@@ -1480,10 +1480,10 @@ ul {
   }
   
   .container.header-wrap {
-    width: 100vw;
+    width: 1128px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .container .navigation .menu-nav {
